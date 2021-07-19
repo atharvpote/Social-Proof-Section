@@ -1,0 +1,98 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-rows: minmax(80vh, 1fr) auto;
+    place-items: center;
+    place-content: center;
+    font-family: 'Spartan', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.social-proof {
+    max-width: 375px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.social-proof__heading,
+.social-proof__rating-card {
+    color: hsl(300, 43%, 22%);
+}
+
+.social-proof__heading {
+    font-size: 4rem;
+}
+
+.social-proof__text,
+.social-proof__varified {
+    color: hsl(303, 10%, 53%);
+}
+
+.social-proof__rating-card,
+.social-proof__rating-stars {
+    display: inline-block;
+}
+
+.social-proof__rating-stars {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.social-proof__rating-card {
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.social-proof__review-card {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding: 4rem 3rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.social-proof__review-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-proof__reviewer-details {
+    font-family: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.social-proof__varified {
+    font-weight: 700;
+    color: hsl(317, 30%, 51%);
+    margin: 0;
+}
+
+.social-proof__review-picture {
+    width: 6rem;
+}
+
+.social-proof__review-picture>img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.social-proof__review-name {
+    margin: 0;
+}
