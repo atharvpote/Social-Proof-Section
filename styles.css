@@ -96,3 +96,62 @@ body {
 .social-proof__review-name {
     margin: 0;
 }
+
+@media screen and (min-width:900px) {
+    .social-proof {
+        max-width: 1140px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .social-proof__top-section {
+        display: flex;
+        gap: 4rem;
+        margin-bottom: 3rem;
+        align-items: flex-start;
+    }
+
+    .social-proof__heading {
+        margin-top: 0;
+    }
+
+    .social-proof__heading,
+    .social-proof__text {
+        width: 50rem;
+    }
+
+    .social-proof__rating-card {
+        width: 50rem;
+    }
+
+    .social-proof__rating-card2 {
+        margin-left: 4rem;
+    }
+
+    .social-proof__rating-card3 {
+        margin-left: 6rem;
+    }
+
+    .social-proof__rating-stars {
+        margin: 0 2rem;
+        width: auto;
+    }
+
+    .social-proof__reviews {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .social-proof__review-card {
+        height: 30rem;
+    }
+
+    .social-proof__review-card2 {
+        margin-top: 4rem;
+    }
+
+    .social-proof__review-card3 {
+        margin-top: 6rem;
+    }
+}
